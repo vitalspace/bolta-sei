@@ -1,3 +1,6 @@
+<img width="1908" height="842" alt="Screenshot_26" src="https://github.com/user-attachments/assets/830e050f-060e-4b44-9fc9-8ba6609c6213" />
+
+
 # 3D Multiplayer Racing & City Game
 
 A real-time 3D multiplayer racing and city exploration game built with modern web technologies and blockchain integration. Players can explore a virtual city, participate in races, join clans, and interact with other players in real-time.

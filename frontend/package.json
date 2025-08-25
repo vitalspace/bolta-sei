@@ -1,0 +1,49 @@
+{
+  "name": "some",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*",
+    "#components/*": "./src/components/*",
+    "#assets/*": "./src/assets/*",
+    "#pages/*": "./src/pages/*",
+    "#routes/*": "./src/routes/*",
+    "#stores/*": "./src/stores/*",
+    "#hooks/*": "./src/hooks/*",
+    "#websockets/*": "./src/websockets/*",
+    "#types": "./src/types/index.d.ts",
+    "#abi/": "./src/abi/*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.38.1",
+    "svelte-check": "^4.3.1",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@cerebras/cerebras_cloud_sdk": "^1.46.0",
+    "@dimforge/rapier3d-compat": "^0.18.2",
+    "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/vite": "^4.1.12",
+    "@threlte/core": "^8.1.4",
+    "@threlte/extras": "^9.4.5",
+    "@threlte/rapier": "^3.1.5",
+    "@threlte/studio": "^0.1.8",
+    "@types/three": "^0.179.0",
+    "ethers": "^6.15.0",
+    "flowbite-svelte": "^1.12.4",
+    "lucide-svelte": "^0.540.0",
+    "svelte5-router": "^3.0.2",
+    "tailwindcss": "^4.1.12",
+    "three": "^0.179.1"
+  }
+}

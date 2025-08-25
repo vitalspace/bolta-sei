@@ -1,0 +1,42 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ES6"],
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "#lib/*": ["./src/lib/*"],
+      "#components/*": ["./src/components/*"],
+      "#assets/*": ["./src/assets/*"],
+      "#pages/*": ["./src/pages/*"],
+      "#routes/*": ["./src/routes/*"],
+      "#stores/*": ["./src/stores/*"],
+      "#hooks/*": ["./src/hooks/*"],
+      "#websockets/*": ["./src/websockets/*"],
+      "#types": ["./src/types/index.d.ts"],
+      "#types/*": ["./src/types/*"],
+      "#abi/": ["./src/abi/*"]
+    }
+  },
+  "include": [
+    "src/**/*.json",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "src/**/*.svelte",
+    "vite.config.js",
+    "vite.config.ts"
+  ]
+}
